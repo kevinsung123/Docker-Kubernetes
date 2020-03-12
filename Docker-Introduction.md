@@ -23,20 +23,21 @@
 ![enter image description here](https://www.docker.com/sites/default/files/d8/styles/large/public/2018-11/container-what-is-container.png?itok=vle7kjDj)
 
  2. **컨테이너의 역사**
-	  1. FressBSD Jail
+	  - FressBSD Jail
 			- 오픈소스인 UNIX의 FreeBSD의기술
    			- 2000년에 FreeBSD 4.0에서 도입
     		- 특징 			
 		    		1. 프로세스 구획화 			
 		    		2. 네트워크 구획화 			
-		    		3. 파일시스템 구획화
-   		2. Solaris Container
+		    		3. 파일시스템 구획화	
+		    		
+ 	- Solaris Container
 		   	- Oracle의 상용 UNIX인 Solaris에서 사용하는 컨테이너 기술
 		   	- 2005년에 release된 Solaris10에 추가된 기능
 			- 특징
 				1. Solaris 존 : 하나의 OS공간을 가상적으로 분할하여 여러OS가 작동하는것처럼 SW 파티셔닝기술
 				2. Solaris 리소스매니저
-	  2. Linux Container(LXC)
+	 - Linux Container(LXC)
 		  - Linux상에서 사용하는 컨테이너 환경을 LXC
 		  - Linux커널의 컨테이너 기능을 이용하기 위한 툴이나 API제공
 		  - **namespace와 cgroups**라는 리소스 관리 장치를 사용하여 분리된 환경 제공 
