@@ -88,4 +88,4 @@
 ### Container Format
 - Docker engine은 `namespace`, `cgroups`, `UnionFS`를 wrapper하여 container format을 사용
 - 기본 container format은 `libcontainer`라고 부름
-- 
+
