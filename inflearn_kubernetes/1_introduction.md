@@ -11,6 +11,7 @@
 	- 큰 기업들은 대규모의 서비스를 운영
 	- 최대한 자원을 효율적으로 써야 비용적으로 유리
 	- 서버자원 효율적 사용
+---
 ### 가상화 기술History
 - **1991- Linux**
 	- Linux
@@ -63,4 +64,20 @@
 ### 강좌 범위
 - User입장에서 서비스
 - 향후 중급편에서 Admin 관점 서비스
-![kubernetes_overview](./images/kubernetes_overview.png)
+![kubernetes_overview](./image/kubernetes_overview.png)
+---
+#### Contents
+1. Why Kubernetes?
+2. VM vs Container
+3. Getting started - Kubernetes
+4. Kubernetes Overview
+5. Object
+	- Pod
+	- Servcie
+	- Volumn
+	- Configmap, Secret
+	- Namespace, ResourceQuota, LimitRange
+6. Controller
+	- Replication Controleer/ ReplicaSet
+	- Deployment
+	- DaemonSet/ Job/ Cron Job
